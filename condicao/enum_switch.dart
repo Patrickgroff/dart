@@ -6,17 +6,17 @@ void main() {
   
   switch (weather) {
     case Weather.sunny:
-        print("Its a sunny day. Put sunscreen.");
+        print("É um dia ensolarado. colocar protetor solar.");
         break;
     case Weather.snowy:
-        print("Get your skis.");
+        print("Pegue seus esquis.");
       break;
     case Weather.rainy:
     case Weather.cloudy:
-      print("Please bring umbrella.");
+      print("Por favor, traga guarda-chuva.");
       break;
     default:
-        print("Sorry I am not familiar with such weather.");
+        print("Desculpe, eu não estou familiarizado com esse clima.");
       break;
   }
 }

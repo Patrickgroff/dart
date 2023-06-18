@@ -4,7 +4,16 @@ main() {
   print("Digite uma letra: ");
   String? letra  = stdin.readLineSync(); // entrada p/ usuario 
 
+  if(RegExp(r'^[aeiou]+$').hasMatch(letra ?? "")) {
+    print("É uma vogal");
+    } else {
+      print("Não é uma volgal");
+    }
 
+  }
+
+
+  /*
   switch ( letra ) {
     case "a":
     print("É uma vogal!");
@@ -85,5 +94,4 @@ main() {
     print("Não é uma vogal!");
     break;
     
-  }
-}
+  }*/

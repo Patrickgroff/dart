@@ -3,7 +3,7 @@ void printInfo({String? name, String? gender}) {
 }
 
 void main() {
-  // you can pass values in any order in named parameters.
+  // você pode passar valores em qualquer ordem em parâmetros nomeados.
   printInfo(gender: "Macho", name: "John");
   printInfo(name: "Sita", gender: "Fêmea");
   printInfo(name: "Reecha", gender: "Fêmea");
